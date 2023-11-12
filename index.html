@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="halloween">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+<body>
+    
+
+    <section>
+        <div class="flex justify-center items-center mt-32">
+        <div class="card w-96 glass ">
+            <div class="card-body">
+              <h2 class="card-title">Price : <span id="number">1000</span></h2>
+              <h2 class="text-xl">Coupon : <input class="w-1/2 mb-4 h-1/2 text-black font-bold" placeholder="coupon" type="text" name="" id="coupon"></h2>
+              <h1 class=" text-xl">Please Pay : <input class="w-36 mb-4 h-1/2 text-black font-extrabold" placeholder="Amount" type="text" name="" id="textArea"></h1>
+              <div class="card-actions justify-end">
+                <button id="apply-button" class="btn btn-primary">Apply</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
